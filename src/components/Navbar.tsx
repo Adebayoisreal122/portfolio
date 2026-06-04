@@ -26,8 +26,8 @@ export default function Navbar() {
         <div className="flex items-center justify-between h-16 md:h-20">
           {/* Logo */}
           <a href="#home" className="flex items-center gap-2 group">
-            <div className="w-9 h-9 rounded-lg bg-gradient-to-br from-cyan-400 to-blue-600 flex items-center justify-center text-white font-black text-sm shadow-lg shadow-cyan-500/30 group-hover:scale-110 transition-transform">
-              IT
+            <div className="w-12 h-12 flex items-center justify-center">
+              <img src="./icon.png" alt="logo" />
             </div>
             <span className="text-white font-bold text-lg tracking-wide">
               ISREALIGHT <span className="text-cyan-400">TECH</span>

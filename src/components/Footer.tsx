@@ -9,24 +9,42 @@ export default function Footer() {
         <div className="flex flex-col md:flex-row items-center justify-between gap-6">
           {/* Logo + tagline */}
           <div className="flex items-center gap-2">
-            <div className="w-8 h-8 rounded-lg bg-gradient-to-br from-cyan-400 to-blue-600 flex items-center justify-center text-white font-black text-xs shadow-lg shadow-cyan-500/30">
-              IT
+            <div className="w-12 h-12 flex items-center justify-center text-white font-black text-sm shadow-lg ">
+              <img src="./icon.png" alt="logo" />
             </div>
             <div>
               <div className="text-white font-bold text-sm">
                 ISREALIGHT <span className="text-cyan-400">TECH</span>
               </div>
-              <div className="text-slate-600 text-xs">Your Vision. Our Code. Your Success.</div>
+              <div className="text-slate-600 text-xs">
+                Your Vision. Our Code. Your Success.
+              </div>
             </div>
           </div>
 
           {/* Social links */}
           <div className="flex items-center gap-3">
             {[
-              { icon: Instagram, href: "https://instagram.com/isrealight_tech", label: "Instagram" },
-              { icon: Github, href: "https://github.com/Adebayoisreal122", label: "GitHub" },
-              { icon: MessageCircle, href: "https://wa.me/2349068918017", label: "WhatsApp" },
-              { icon: Mail, href: "mailto:adebayooluwaferanmi112@gmail.com", label: "Email" },
+              {
+                icon: Instagram,
+                href: "https://instagram.com/isrealight_tech",
+                label: "Instagram",
+              },
+              {
+                icon: Github,
+                href: "https://github.com/Adebayoisreal122",
+                label: "GitHub",
+              },
+              {
+                icon: MessageCircle,
+                href: "https://wa.me/2349068918017",
+                label: "WhatsApp",
+              },
+              {
+                icon: Mail,
+                href: "mailto:adebayooluwaferanmi112@gmail.com",
+                label: "Email",
+              },
             ].map((social) => {
               const Icon = social.icon;
               return (
