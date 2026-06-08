@@ -8,7 +8,7 @@ const projects = [
     image: "/projects/Trustwave Bank.png",
     description:
       "Secure digital banking platform featuring account management, fund transfers, transaction history, authentication, and a modern banking dashboard.",
-    tags: ["Next.js", "Laravel", "Tailwind CSS", "JWT"],
+    tags: ["React", "Node.Js", "Tailwind CSS", "MongoDB", "JWT"],
     color: "from-blue-500 to-purple-600",
     accent: "cyan",
     githubUrl: "https://github.com/Adebayoisreal122/Banking",
@@ -21,7 +21,7 @@ const projects = [
     image: "/projects/kingbs.png",
     description:
       "Modern automobile marketplace showcasing premium new and used vehicles with advanced filtering and responsive design.",
-    tags: ["React", "TypeScript", "Tailwind CSS"],
+    tags: ["React", "TypeScript", "MongoDB", "Tailwind CSS"],
     color: "from-orange-500 to-yellow-500",
     accent: "orange",
     githubUrl: "https://github.com/yourusername/kingbs-auto",
@@ -47,7 +47,7 @@ const projects = [
     image: "/projects/Medicore.png",
     description:
       "Comprehensive hospital management platform handling patients, appointments, doctors, medical records, and administration.",
-    tags: ["React", "Node.js", "MongoDB"],
+    tags: ["Angular", "Node.js", "Tailwind CSS"],
     color: "from-purple-700 to-blue-600",
     accent: "purple",
     githubUrl: "https://github.com/Adebayoisreal122/Hospital-Management",
@@ -60,7 +60,7 @@ const projects = [
     image: "/projects/thecall.png",
     description:
       "Modern ministry website featuring events, sermons, media content, donation systems, and community engagement.",
-    tags: ["Next.js", "Tailwind CSS"],
+    tags: ["ReactJs", "MongoDB", "Tailwind CSS"],
     color: "from-blue-700 to-cyan-500",
     accent: "blue",
     githubUrl: "https://github.com/yourusername/the-call-global",
@@ -73,7 +73,7 @@ const projects = [
     image: "/projects/technova.png",
     description:
       "Content-driven technology blog featuring articles, categories, search functionality, and modern responsive layouts.",
-    tags: ["Next.js", "CMS", "SEO"],
+    tags: ["Vue.Js", "SAAS", "Laravel", "SEO",],
     color: "from-pink-500 to-purple-600",
     accent: "pink",
     githubUrl: "https://github.com/yourusername/technova-pulse",
