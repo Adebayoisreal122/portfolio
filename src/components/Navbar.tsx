@@ -26,12 +26,10 @@ export default function Navbar() {
         <div className="flex items-center justify-between h-16 md:h-20">
           {/* Logo */}
           <a href="#home" className="flex items-center gap-2 group">
-            <div className="w-12 h-12 flex items-center justify-center">
-              <img src="./icon.png" alt="logo" />
+            <div className="w-24 flex items-center justify-center">
+              <img src="./Isreal.png" alt="logo" />
             </div>
-            <span className="text-white font-bold text-lg tracking-wide">
-              ISREALIGHT <span className="text-cyan-400">TECH</span>
-            </span>
+
           </a>
 
           {/* Desktop Nav */}
